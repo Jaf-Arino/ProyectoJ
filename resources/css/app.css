@@ -28,21 +28,15 @@ hr {
     border: 0.1px solid var(--dorado);
 }
 
-button:visited {
-    color: inherit;
-}
-
-button:hover {
-    background-color: var(--dorado);
+button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
     cursor: pointer;
 }
 
 a:hover {
     color: var(--azulClaro);
-}
-
-button {
-    color: var(--dorado);
 }
 
 a:visited{
@@ -429,7 +423,7 @@ input[type="submit"]:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-image: url('../img/nordico.jpg');
+    background-image: url(../img/nordico.jpg);
     background-position-y: center;
     height: 30rem;
     background-size: cover;
@@ -690,8 +684,12 @@ input[type="submit"]:hover {
 
 
 .boton-ver-producto {
-    height: 2.5rem;
-    padding-top: 1rem;
+    height: 3rem;
+    width: 100%;
+    color: var(--azulOscuro);
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    margin: 1rem 0;
 }
 
 .boton-ver-producto:hover {
@@ -1042,3 +1040,5 @@ footer section div div h1 {
     }
 
 }
+
+
