@@ -1,3 +1,5 @@
+@extends('layouts.layout')
+
 @section('cuerpo')
 Categoria: {{$category->name}}
 <br><br>

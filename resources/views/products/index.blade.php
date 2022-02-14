@@ -1,3 +1,5 @@
+@extends('layouts.layout')
+
 @section('titulo')
 <h2>Listado de productos</h2>
 @forelse ($products as $product)
